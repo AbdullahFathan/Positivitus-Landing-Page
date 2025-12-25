@@ -3,6 +3,7 @@ import Header from "./fragment/components/Header";
 import Hero from "./fragment/section/Hero";
 import Company from "./fragment/section/Company";
 import Services from "./fragment/section/Services";
+import CaseStudies from "./fragment/section/CaseStudies";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <Company />
       <Services />
+      <CaseStudies />
     </div>
   );
 };
