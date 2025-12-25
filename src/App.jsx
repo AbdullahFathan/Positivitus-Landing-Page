@@ -4,16 +4,18 @@ import Hero from "./fragment/section/Hero";
 import Company from "./fragment/section/Company";
 import Services from "./fragment/section/Services";
 import CaseStudies from "./fragment/section/CaseStudies";
+import WorkingProgres from "./fragment/section/WorkingProgres";
 
 const App = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4 md:px-8 overflow-hidden">
+    <main className="max-w-7xl mx-auto px-4 md:px-8 overflow-hidden">
       <Header />
       <Hero />
       <Company />
       <Services />
       <CaseStudies />
-    </div>
+      <WorkingProgres />
+    </main>
   );
 };
 
