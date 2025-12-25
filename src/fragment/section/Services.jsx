@@ -1,5 +1,6 @@
 import React from "react";
 import ServicesCard from "../components/ServicesCard";
+import ServicesCTA from "../components/ServicesCTA";
 
 const services = [
   {
@@ -70,12 +71,12 @@ const Services = () => {
           businesses grow and succeed online. These services include:
         </p>
       </div>
-
       <div className="grid grid-cols-1 md:grid-cols-2 gap-10 w-full">
         {services.map((service, index) => (
           <ServicesCard key={index} {...service} />
         ))}
       </div>
+      <ServicesCTA />
     </section>
   );
 };
