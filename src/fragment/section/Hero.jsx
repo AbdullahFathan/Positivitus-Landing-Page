@@ -3,7 +3,7 @@ import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row justify-between items-center gap-10 my-10 md:my-14">
+    <section className="flex-col md:flex-row">
       <div className="w-full md:w-1/2 text-center md:text-left">
         <h1 className="text-4xl lg:text-6xl font-medium leading-tight mb-6">
           Navigating the digital landscape for success

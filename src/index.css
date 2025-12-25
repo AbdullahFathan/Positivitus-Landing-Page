@@ -13,6 +13,10 @@
     @apply font-sans bg-light text-dark;
   }
 
+  section {
+    @apply flex  justify-between items-center gap-10 my-10 md:my-14;
+  }
+
   h1 {
     @apply text-5xl font-medium lg:text-6xl;
   }
