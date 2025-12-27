@@ -5,7 +5,7 @@ const Header = () => {
   const navItems = ["About Us", "Services", "Use Cases", "Pricing", "Blog"];
 
   return (
-    <nav className="w-full bg-light py-5">
+    <nav className="w-full  py-5">
       <header className="flex justify-between items-center w-full">
         <div className="flex gap-2 items-center z-50">
           <img src="icon_web.svg" alt="icon" className="w-8 h-8" />

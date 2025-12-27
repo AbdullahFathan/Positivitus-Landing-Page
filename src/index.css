@@ -11,7 +11,7 @@
 
 @layer base {
   body {
-    @apply font-sans bg-light text-dark;
+    @apply font-sans bg-white text-dark;
   }
 
   section {

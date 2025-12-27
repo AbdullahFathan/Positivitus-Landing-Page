@@ -7,10 +7,12 @@ import CaseStudies from "./fragment/section/CaseStudies";
 import WorkingProgres from "./fragment/section/WorkingProgres";
 import Teams from "./fragment/section/Teams";
 import Testimonial from "./fragment/section/Testimonial";
+import Contact from "./fragment/section/Contact";
+import Footer from "./fragment/section/Footer";
 
 const App = () => {
   return (
-    <main className="max-w-7xl mx-auto px-4 md:px-8 overflow-hidden">
+    <main className="max-w-7xl mx-auto px-4 md:px-8 ">
       <Header />
       <Hero />
       <Company />
@@ -19,6 +21,8 @@ const App = () => {
       <WorkingProgres />
       <Teams />
       <Testimonial />
+      <Contact />
+      <Footer />
     </main>
   );
 };
