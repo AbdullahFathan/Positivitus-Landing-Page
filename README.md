@@ -1,18 +1,86 @@
-# React + Vite
+# Positivus Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive landing page for a digital marketing agency, built with React and Tailwind CSS. The design focuses on bold typography, a vibrant color palette (Green & Dark Theme), and interactive elements.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [https://positivitus-landing-page.vercel.app/](https://positivitus-landing-page.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## React Compiler
+- **Responsive Design**: Fully responsive layout optimized for mobile, tablet, and desktop devices.
+- **Modern UI/UX**: Clean aesthetic with a dark theme footer, custom shaped avatars, and smooth transitions.
+- **Interactive Carousel**: powered by **Swiper.js**, featuring:
+  - Custom star-shaped pagination indicators.
+  - Centered slide layout.
+  - Custom navigation arrows.
+- **Dynamic Components**:
+  - Reusable `CardTeams` with custom CSS masks.
+  - Responsive `ContactUsForm` with radio buttons and styled inputs.
+  - Accordion-style sections (if applicable/planned).
+- **SEO Friendly**: Semantic HTML structure.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🛠️ Tech Stack
 
-Note: This will impact Vite dev & build performances.
+- **Framework**: [React 19](https://react.dev/)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/) (FontAwesome)
+- **Carousel**: [Swiper.js](https://swiperjs.com/)
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+- Node.js (v18 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1.  **Clone the repository** (if applicable) or download the source code.
+2.  **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server**:
+
+    ```bash
+    npm run dev
+    ```
+
+    The application will be available at `http://localhost:5173`.
+
+### Building for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+This will generate optimized static files in the `dist` directory.
+
+## 📂 Project Structure
+
+```
+src/
+├── assets/          # Static assets (images, icons)
+├── fragment/        # Component fragments
+│   ├── components/  # Reusable UI components (CardTeams, Caraousel, etc.)
+│   └── section/     # Page sections (Hero, Services, Teams, Testimonial, Contact, Footer)
+├── App.jsx          # Main application component
+├── index.css        # Global styles and Tailwind imports
+└── main.jsx         # Entry point
+```
+
+## 🎨 Design Reference
+
+This project is based on the **Positivus** landing page design, featuring a distinct green (`#B9FF66`) and black color scheme.
+
+**Design Credits:**
+Huge thanks to **Olga Averchenko** for the free design template on the Figma Community!
+👉 [View original design](https://www.figma.com/community/file/1230604708032389430)
+
+---
