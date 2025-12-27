@@ -35,7 +35,7 @@ const process = [
 ];
 
 const WorkingProgres = () => {
-  const [openIndex, setOpenIndex] = useState(0);
+  const [openIndex, setOpenIndex] = useState(null);
 
   const handleToggle = (index) => {
     setOpenIndex(openIndex === index ? -1 : index);

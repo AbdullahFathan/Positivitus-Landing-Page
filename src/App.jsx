@@ -5,6 +5,7 @@ import Company from "./fragment/section/Company";
 import Services from "./fragment/section/Services";
 import CaseStudies from "./fragment/section/CaseStudies";
 import WorkingProgres from "./fragment/section/WorkingProgres";
+import Teams from "./fragment/section/Teams";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Services />
       <CaseStudies />
       <WorkingProgres />
+      <Teams />
     </main>
   );
 };
